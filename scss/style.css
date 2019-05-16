@@ -1,0 +1,58 @@
+html {
+  text-align: center;
+}
+
+#playerStatistics th:hover {
+  background: lightcyan;
+  cursor: pointer;
+}
+
+#westStandings th:hover {
+  cursor: not-allowed;
+}
+
+#eastStandings th:hover {
+  cursor: not-allowed;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#eastStandings {
+  display: inline-block;
+}
+
+#eastStandings td {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: red;
+  color: white;
+}
+
+#westStandings {
+  display: inline-block;
+}
+
+#westStandings td {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: blue;
+  color: white;
+}
+
+#playerStatistics {
+  display: inline-block;
+}
+
+#playerStatistics td {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #007FFF;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */

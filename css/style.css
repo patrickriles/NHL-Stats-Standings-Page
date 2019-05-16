@@ -1,0 +1,48 @@
+html {
+  text-align: center;
+}
+
+th, td{
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+th:hover {
+  background: lightcyan;
+}
+
+#eastStandings {
+  display: inline-block;
+}
+
+#westStandings {
+  display: inline-block;
+}
+
+#eastStandings td{
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: red;
+  color: white;
+}
+
+#westStandings td{
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: blue;
+  color: white;
+}
+
+#playerStatistics {
+  display: inline-block;
+}
+
+#playerStatistics td{
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color:	#007FFF;
+  color: white;
+}

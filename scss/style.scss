@@ -1,0 +1,63 @@
+$west: blue;
+$east: red;
+$stats: #007FFF;
+$border: #ddd;
+$textcolour: white;
+$hover: lightcyan;
+$borderwidth: 12px;
+
+
+html {
+    text-align: center;
+}
+  
+#playerStatistics th:hover {
+    background: $hover;
+    cursor: pointer;
+}
+
+#westStandings th:hover {
+    cursor: not-allowed;
+  }
+  
+#eastStandings th:hover {
+    cursor: not-allowed;
+  }
+  
+th, td{
+border: 1px solid $border;
+padding: 8px;
+}
+  
+#eastStandings {
+    display: inline-block;
+    td{
+        padding-top: $borderwidth;
+        padding-bottom: $borderwidth;
+        text-align: left;
+        background-color: $east;
+        color: $textcolour;
+    }
+}
+  
+#westStandings {
+    display: inline-block;
+    td{
+        padding-top: $borderwidth;
+        padding-bottom: $borderwidth;
+        text-align: left;
+        background-color: $west;
+        color: $textcolour;
+    }
+}
+  
+#playerStatistics {
+    display: inline-block;
+    td{
+        padding-top: $borderwidth;
+        padding-bottom: $borderwidth;
+        text-align: left;
+        background-color: $stats;
+        color: $textcolour;
+    }
+}
